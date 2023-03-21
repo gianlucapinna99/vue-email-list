@@ -32,7 +32,7 @@
     <!-- MAIN -->
     <main>
         <div id="app">
-            <button @click="generateEmails" vshow>Genera indirizzi email</button>
+            <button v-show="!emailsGenerated" @click="generateEmails" vshow>Genera indirizzi email</button>
             <ul v-cloak v-if="emailsGenerated">
                 <li v-for="email in emails" :key="email">{{ email }}</li>
             </ul>
