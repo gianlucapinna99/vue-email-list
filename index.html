@@ -30,9 +30,9 @@
     </header>
 
     <!-- MAIN -->
-    <main>
-        <div id="app">
-            <button v-show="!emailsGenerated" @click="generateEmails" vshow>Genera indirizzi email</button>
+    <main class="d-flex flex-column justify-content-center align-items-center vh-100">
+        <div id="app" class="container-bg">
+            <button class="button" v-show="!emailsGenerated" @click="generateEmails">GENERA LISTA</button>
             <ul v-cloak v-if="emailsGenerated">
                 <li v-for="email in emails" :key="email">{{ email }}</li>
             </ul>

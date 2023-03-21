@@ -9,3 +9,54 @@
 [v-cloak] {
     display: none;
 }
+
+
+main{
+    background-color: #131212;
+}
+
+header{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 25px;
+    border: transparent;
+    width: 30%;
+    margin: 0 auto;
+    background-color: #252426;
+    color: white;
+}
+
+
+.container-bg{
+    text-align: center;
+}
+
+ul{
+    border-radius: 25px;
+    padding: 30px;
+    list-style: none;
+    color: white;
+    line-height: 40px;
+    background-color: #252426;
+}
+
+.button{
+    font-size: 30px;
+    font-family: Lato;
+    font-weight: 700;
+    padding: 20px;
+    margin-top: auto;
+    background-color: #3067fe;
+    border-radius: 30px;
+    color: white;
+    border: none;
+}
+
+.button:hover{
+    background-color: #3f48cc;
+    color: rgb(246, 241, 241);
+    border: none;
+}
